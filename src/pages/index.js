@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/parking_banner.jpg'
+import pic02 from '../assets/images/iphone8spacegrey_portrait.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -53,7 +54,7 @@ class Index extends React.Component {
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={pic02} alt="" /></span>
             </div>
           </section>
 
@@ -85,7 +86,7 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          {/* <section id="second" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -119,7 +120,7 @@ class Index extends React.Component {
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section> */}
 
           <section id="cta" className="main special">
             <header className="major">
