@@ -1,13 +1,13 @@
 import React from 'react'
 
-import logo from '../assets/images/logo.svg';
+import icon from '../assets/images/icon.png';
+import parkingicon from '../assets/images/parking-icon.gif'
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="" /></span>
-        <h1>Stellar</h1>
-        <p>Just another free, fully responsive site template<br />
-        design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <h1>Slot</h1>
+        <span className="logo"><img src={parkingicon} alt="" width="95px" height="95px" marginTop="2px" /></span>
+        <p>Parking made easy <br/> For the people, by the people</p>
     </header>
 )
 

@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/parking_banner.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Slot" />
 
         <Header />
 
@@ -45,11 +45,10 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>What is Slot?</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>Slot seeks to revolutionize parking by taking advantage of unused residential parking. We use a model similar to famous companies like Airbnb and HomeAway but for residential parking spots. 
+                  Hosts make money renting unused parking spots and renters get guaranteed parking with no hassle.</p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
@@ -60,23 +59,23 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>The Pillars</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style1 fa-mobile"></span>
+                <h3>The App</h3>
+                <p>The app will be the hub where you can find, reserve, and access your parking spots. It will be available IOS, Android, and Web.</p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style3 fa-user"></span>
+                <h3>The Host</h3>
+                <p>The hosts provide unused residential parking spots so you don't rely on finding empty parking garages. Earn extra money to fund your next dream.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style5 fa-car"></span>
+                <h3>The Renter</h3>
+                <p>Rent a spot on the app, arrive, park, and continue with a peace of mind. Don't waste anymore time circling the parking lots.</p>
               </li>
             </ul>
             <footer className="major">
@@ -124,14 +123,14 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Coming Soon</h2>
+              <p>Join us as we get started on our adventure.<br/>
+              We will be launching our beta in March 2019, with a full release targeting in August 2019.</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/generic" className="button special">Get notified on release</Link></li>
+                <li><Link to="/generic" className="button">Investors</Link></li>
               </ul>
             </footer>
           </section>
