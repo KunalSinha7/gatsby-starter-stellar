@@ -1,19 +1,7 @@
-# gatsby-starter-stellar
+# Slot Parking Template Website
 
-**This starter has been updated for Gatsby.js V2.**
+This is a React based PWA (Progressive Web App) designed for my Entrepreneurship class.
 
-**The older V1 version of this starter can be found in the V1 branch**
+This was meant to serve as an initial landing page while the project was in the stage of aquiring funding.
 
-Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
-
-## Preview
-
-https://gatsby-stellar.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br>
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
-
-Run `gatsby develop` in the terminal to start the dev site.
+* Note: Most links are broken as they were added for design choices, but not necessary for the initial landing page at the time. They will be updated when the project gets to that stage.
